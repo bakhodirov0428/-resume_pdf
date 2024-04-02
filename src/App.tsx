@@ -1,5 +1,5 @@
 // import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
+//  import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
 
@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <div className="container  grid gap-4 ">
-        <div className="grid gap-4 items-start justify-start">
+      <div className="container grid gap-5">
+        <div className="grid gap-4 items-start ">
           <img src="./assets/img/photo_2024-01-23_10-55-57.png" alt="user" />
           <h1 className="text-left font-semibold text-black text-xl">
             Javlon Bakhodirov
@@ -40,38 +40,72 @@ function App() {
         </ul>
         <div className="flex items-start gap-44">
           <h2 className="font-medium text-lg text-black">Email</h2>
-          <p className="font-normal text-base text-gray-500">
+          <p className="font-normal text-base text-gray-500 ">
             Graphic designer with +8 years of experience in branding and print
             design. Skilled at Adobe Creative Suite (Photoshop, Illustrator,
             InDesign) as well as sketching and hand drawing. Supervised 23 print
             design projects that resulted in an increase of 32% in savings.
           </p>
         </div>
-        <div className="flex flex-col gap-2 ">
-          <h1 className="text-left font-semibold text-black text-xl">
-            Employment
-          </h1>
-          <ul className="flex flex-col">
-            <li className="flex items-start justify-between">
-              <div className="flex flex-col">
-                <h2 className="font-medium text-lg text-black">
-                  Oct 2012 — Sep 2015
-                </h2>
-                <p className="font-normal text-base text-gray-400">New York</p>
-              </div>
-              <div className="flex flex-col">
-                <h2 className="text-left font-medium text-lg text-black">
-                  UI Designer at Market Studios
-                </h2>
-                <p className="font-normal text-base text-gray-500">
-                  Successfully translated subject matter into concrete design
-                  for newsletters, promotional materials and sales collateral.
-                  Created design theme and graphics for marketing and sales
-                  presentations, training videos and corporate websites.
-                </p>
-              </div>
-            </li>
-          </ul>
+        <div className="grid gap-4">
+          <h1 className="font-medium text-lg text-black">Employment</h1>
+          <div className="flex items-start ">
+            <div className="flex flex-col gap-2 w-[95%]">
+              <h2 className="font-medium text-lg text-black ">
+                Oct 2012 — Sep 2015
+              </h2>
+              <p className="font-normal text-base text-gray-400">New York</p>
+            </div>
+            <div className="flex flex-col  gap-2">
+              <h2 className="font-medium text-lg text-black">
+                UI Designer at Market Studios
+              </h2>
+              <p className="font-normal text-base text-gray-500">
+                Successfully translated subject matter into concrete design for
+                newsletters, promotional materials and sales collateral. Created
+                design theme and graphics for marketing and sales presentations,
+                training videos and corporate websites.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start ">
+            <div className="flex flex-col gap-2 w-[95%]">
+              <h2 className="font-medium text-lg text-black ">
+                Oct 2012 — Sep 2015
+              </h2>
+              <p className="font-normal text-base text-gray-400">New York</p>
+            </div>
+            <div className="flex flex-col  gap-2">
+              <h2 className="font-medium text-lg text-black">
+                UI Designer at Market Studios
+              </h2>
+              <p className="font-normal text-base text-gray-500">
+                Successfully translated subject matter into concrete design for
+                newsletters, promotional materials and sales collateral. Created
+                design theme and graphics for marketing and sales presentations,
+                training videos and corporate websites.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <h1 className="font-medium text-lg text-black">Education</h1>
+          <div className="flex">
+            <div className="flex flex-col gap-2 w-[30%]">
+              <h2 className="font-medium text-lg text-black ">
+                Oct 2012 — Sep 2015
+              </h2>
+              <p className="font-normal text-base text-gray-400">New York</p>
+            </div>
+            <div className="flex flex-col  gap-2">
+              <h2 className="font-medium text-lg text-black">
+                Los Angeles University
+              </h2>
+              <p className="font-normal text-base text-gray-500">
+                Master of Graphic Design
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>

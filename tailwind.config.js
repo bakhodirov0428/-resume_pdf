@@ -5,7 +5,12 @@ export default {
     container: {
       center: true,
       padding: "1rem",
-      width: "1280px",
+    },
+
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
     },
     extend: {},
   },
