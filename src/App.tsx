@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      Jovlon, [4/5/2024 5:23 PM] mana obshi kod
       <div className="container grid gap-5">
         <div className="grid gap-4 items-start ">
           <img src="./assets/img/photo_2024-01-23_10-55-57.png" alt="user" />
@@ -95,6 +96,7 @@ function App() {
               <h2 className="font-medium text-lg text-black ">
                 Oct 2012 — Sep 2015
               </h2>
+              Jovlon, [4/5/2024 5:23 PM]
               <p className="font-normal text-base text-gray-400">New York</p>
             </div>
             <div className="flex flex-col  gap-2">
@@ -105,6 +107,41 @@ function App() {
                 Master of Graphic Design
               </p>
             </div>
+          </div>
+        </div>
+        <div className="flex items-start gap-48">
+          <h1 className="font-medium text-lg text-black">Skills</h1>
+          <div className="flec flex-col gap-4">
+            <ul className="flex items-center gap-12">
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-500">Figma</p>
+              </li>
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-500">
+                  Adobe Photoshop
+                </p>
+              </li>
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-500">
+                  Premiere Pro
+                </p>
+              </li>
+            </ul>
+            <ul className="flex items-center gap-12">
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-500">Figma</p>
+              </li>
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-500">
+                  Adobe Photoshop
+                </p>
+              </li>
+              <li className="list-disc ">
+                <p className="font-normal text-base text-gray-400">
+                  Premiere Pro
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
